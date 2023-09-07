@@ -7,6 +7,11 @@ const routes = [
     path: "/books",
     handler: createBook,
   },
+  {
+    method: "GET",
+    path: "/books",
+    handler: getAllBook,
+  },
 ];
 
 module.exports = routes;

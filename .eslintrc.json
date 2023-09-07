@@ -19,6 +19,9 @@
       "no-unused-vars": "off",
       "padded-blocks": "off",
       "no-undef": "off",
-      "object-curly-newline": "off"
+      "object-curly-newline": "off",
+      "consistent-return": "off",
+      "implicit-arrow-linebreak": "off",
+      "comma-dangle": "off"
     }
 }
