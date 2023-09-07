@@ -1,4 +1,5 @@
 const createBook = require("./handler/createBook");
+const deleteBook = require("./handler/deleteBook");
 const getAllBook = require("./handler/getAllBook");
 const getByIdBook = require("./handler/getByIdBook");
 const updateBook = require("./handler/updateBook");
@@ -23,6 +24,11 @@ const routes = [
     method: "PUT",
     path: "/books/{bookId}",
     handler: updateBook,
+  },
+  {
+    method: "DELETE",
+    path: "/books/{bookId}",
+    handler: deleteBook,
   },
 ];
 
